@@ -1,0 +1,148 @@
+:root {
+    --police-blue: #2E496A;
+    --peach-puff: #FEDCB8;
+    --crystal-blue: #6E90B5;
+    --white: white;
+}
+/*Added variables to reference later in the sheet*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avatar{
+    width: 200px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--crystal-blue);
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 40px;
+}
+
+.navbar ul li{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 8px 25px;
+    color: var(--peach-puff);
+    background: var(--police-blue);
+}
+
+.navbar ul li a:hover{
+    background-color: var(--white);
+}
+/*Created an effect when hovering over the nav bar*/
+
+.page-title{
+    color: var(--peach-puff);
+    background-color: var(--crystal-blue);
+    font-size: 40px;
+    min-height: 45px;
+}
+
+header p{
+    color: var(--peach-puff);
+    background-color: var(--police-blue);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header {
+    width: 96%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.about-me{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--peach-puff);
+    background-color: var(--police-blue)
+}
+
+#card{
+    font-size: 40px;
+    background-color: var(--crystal-blue);
+}
+
+main {
+    width: 96%;
+    margin: 2rem auto;
+}
+
+.work {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--peach-puff);
+    background-color: var(--police-blue)
+}
+
+.pixel {
+    width: 600px;
+}
+
+.blueprint {
+    width: 300px;
+
+}
+
+.code {
+    width: 300px;
+}
+
+.contact-me{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--peach-puff);
+    background-color: var(--police-blue)
+}
+
+.resume{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--peach-puff);
+    background-color: var(--police-blue)
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--peach-puff);
+    background-color: var(--police-blue)  
+}
+
+@media screen and (max-width: 480px) {
+    .pixel {
+      width: 100%;
+    } 
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li {
+        margin: 20px;
+    }
+  }
+  /*Added media query to resize the .pixel image and the navbar list for smaller screens*/
+ 
+  
