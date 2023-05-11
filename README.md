@@ -1,5 +1,5 @@
 # Peter Ostertag's Portfolio Website
-This is a single page portfolio website for my own use as an aspiring software developer. It will showcase my future work with links to what I have worked on as well as have clear ways to get in contact with me and view my resume.
+This is a single page portfolio website for my own use as an aspiring software developer. It will showcase my future work with links to what I have worked on as well as include clear ways to get in contact with me and view my resume.
 
 ## Github Pages URL
 
